@@ -42,6 +42,22 @@ export default function Home() {
           </Link>
         </div>
 
+        {/* post路由示例 */}
+        <div className="mt-16 p-6 bg-gray-50 rounded-xl">
+          <h3 className="text-lg font-semibold mb-4">📝 动态路由示例</h3>
+          <p className="text-gray-600">
+            例如：访问 <Link href="/users" className="text-blue-600 hover:underline">/users</Link> 查看用户详情
+          </p>
+        </div>
+
+        {/* users路由示例 */}
+        <div className="mt-6 p-6 bg-gray-50 rounded-xl">
+          <h3 className="text-lg font-semibold mb-4">👥 用户管理路由示例</h3>
+          <p className="text-gray-600">
+            例如：访问 <Link href="/users" className="text-blue-600 hover:underline">/users</Link> 查看用户列表
+          </p>
+        </div>
+
         {/* 路由说明 */}
         <div className="mt-16 p-6 bg-gray-50 rounded-xl">
           <h3 className="text-lg font-semibold mb-4">📂 文件结构即路由</h3>
